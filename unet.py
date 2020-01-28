@@ -9,7 +9,7 @@ import tensorflow as tf
 from tensorflow import keras
 from keras import layers, models
 
-
+# tensorflow implementation of the unet architecure
 def load_train_img():
     train_images = []
     train_mask = []
